@@ -8,6 +8,11 @@ router.get('/home', function(req, res) {
     res.send('Home Birds World');
 });
 
+router.get('/', function(req, res) {
+    res.send('Home Birds World');
+});
+
+
 
 
 
