@@ -2,7 +2,7 @@ const express = require('express')
 const padraoRoute = require('./routes/padrao.js');
 
 const app = express()
-const port = 3001
+const port = 80
 
 /* Padrão Rota */
 app.use(padraoRoute);
